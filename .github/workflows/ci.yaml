@@ -1,0 +1,57 @@
+name: CI
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+
+jobs:
+    build:
+        name: Build ${{ matrix.node }}
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node: ["20.x"]
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node }}
+            - uses: bahmutov/npm-install@v1
+            - run: npm run build
+    lint:
+        name: Lint ${{ matrix.node }}
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node: ["20.x"]
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node }}
+            - uses: bahmutov/npm-install@v1
+            - run: npm run lint
+            - run: npx tsc
+    test:
+        name: Test ${{ matrix.node }}
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node: ["20.x"]
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: ${{ matrix.node }}
+            - uses: bahmutov/npm-install@v1
+            - run: npx msw init ./public
+            - run: npm run test
+            - uses: cypress-io/github-action@v6
+              with:
+                  install: false
+                  build: npm run build
+                  start: npm run start, npm run dev:mock-server
+                  wait-on: "http://localhost:3000, http://localhost:9090"
+              env:
+                  NODE_ENV: test

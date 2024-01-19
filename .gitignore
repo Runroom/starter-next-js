@@ -4,10 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
-.yarn/install-state.gz
 
 # testing
 /coverage
+
+# vscode
+/.vscode
 
 # next.js
 /.next/
@@ -34,3 +36,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# msw
+public/mockServiceWorker.js
+
+# cypress
+tests/cypress/screenshots
+
+# design tokens
+design-tokens.config.json
+designtokens.config.json
