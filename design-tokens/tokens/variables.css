@@ -1,0 +1,68 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 21 Dec 2023 10:01:10 GMT
+ */
+
+:root {
+  --colors-surface-primary: #f1f1f1;
+  --colors-surface-secondary: #343434;
+  --colors-surface-brand: #afafaf;
+  --colors-surface-invert: #202020;
+  --colors-button-primary: #14532d;
+  --colors-button-secondary: #2563eb;
+  --colors-button-brand: #166534;
+  --colors-button-danger: #e11d48;
+  --colors-button-invert: #f0fdf4;
+  --colors-text-primary: #202020;
+  --colors-text-secondary: #7c7c7c;
+  --colors-text-brand: #202020;
+  --colors-text-invert: #f1f1f1;
+  --font-mobile-title-lg-size: 2.1875rem;
+  --font-mobile-title-lg-weight: 400;
+  --font-mobile-title-lg-line-height: 1.1;
+  --font-mobile-title-lg-letter-spacing: 0;
+  --font-mobile-title-md-size: 2.1875rem;
+  --font-mobile-title-md-weight: 400;
+  --font-mobile-title-md-line-height: 1.1;
+  --font-mobile-title-md-letter-spacing: 0;
+  --font-mobile-title-sm-size: 1.625rem;
+  --font-mobile-title-sm-weight: 400;
+  --font-mobile-title-sm-line-height: 1.25;
+  --font-mobile-title-sm-letter-spacing: 0;
+  --font-mobile-body-lg-size: 1.4375rem;
+  --font-mobile-body-lg-weight: 400;
+  --font-mobile-body-lg-line-height: 1.35;
+  --font-mobile-body-lg-letter-spacing: 0;
+  --font-mobile-body-md-size: 1.125rem;
+  --font-mobile-body-md-weight: 400;
+  --font-mobile-body-md-line-height: 1.4;
+  --font-mobile-body-md-letter-spacing: 0;
+  --font-mobile-body-sm-size: 0.9375rem;
+  --font-mobile-body-sm-weight: 400;
+  --font-mobile-body-sm-line-height: 1.45;
+  --font-mobile-body-sm-letter-spacing: 0;
+  --font-desktop-title-lg-size: 4.75rem;
+  --font-desktop-title-lg-weight: 400;
+  --font-desktop-title-lg-line-height: 1;
+  --font-desktop-title-lg-letter-spacing: 0;
+  --font-desktop-title-md-size: 3.8125rem;
+  --font-desktop-title-md-weight: 400;
+  --font-desktop-title-md-line-height: 1.15;
+  --font-desktop-title-md-letter-spacing: 0;
+  --font-desktop-title-sm-size: 2.4375rem;
+  --font-desktop-title-sm-weight: 400;
+  --font-desktop-title-sm-line-height: 1.2;
+  --font-desktop-title-sm-letter-spacing: 0;
+  --font-desktop-body-lg-size: 1.5625rem;
+  --font-desktop-body-lg-weight: 400;
+  --font-desktop-body-lg-line-height: 1.35;
+  --font-desktop-body-lg-letter-spacing: 0;
+  --font-desktop-body-md-size: 1.25rem;
+  --font-desktop-body-md-weight: 400;
+  --font-desktop-body-md-line-height: 1.45;
+  --font-desktop-body-md-letter-spacing: 0;
+  --font-desktop-body-sm-size: 1rem;
+  --font-desktop-body-sm-weight: 400;
+  --font-desktop-body-sm-line-height: 1.45;
+  --font-desktop-body-sm-letter-spacing: 0;
+}

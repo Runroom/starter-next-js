@@ -1,0 +1,218 @@
+{
+  "colors": {
+    "surface": {
+      "primary": {
+        "name": "surface-primary",
+        "value": "#f1f1f1",
+        "valueRgb": {
+          "r": 241,
+          "g": 241,
+          "b": 241,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 95,
+          "a": 1
+        }
+      },
+      "secondary": {
+        "name": "surface-secondary",
+        "value": "#343434",
+        "valueRgb": {
+          "r": 52,
+          "g": 52,
+          "b": 52,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 20,
+          "a": 1
+        }
+      },
+      "brand": {
+        "name": "surface-brand",
+        "value": "#afafaf",
+        "valueRgb": {
+          "r": 175,
+          "g": 175,
+          "b": 175,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 69,
+          "a": 1
+        }
+      },
+      "invert": {
+        "name": "surface-invert",
+        "value": "#202020",
+        "valueRgb": {
+          "r": 32,
+          "g": 32,
+          "b": 32,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 13,
+          "a": 1
+        }
+      }
+    },
+    "button": {
+      "primary": {
+        "name": "button-primary",
+        "value": "#14532d",
+        "valueRgb": {
+          "r": 20,
+          "g": 83,
+          "b": 45,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 144,
+          "s": 61,
+          "l": 20,
+          "a": 1
+        }
+      },
+      "secondary": {
+        "name": "button-secondary",
+        "value": "#2563eb",
+        "valueRgb": {
+          "r": 37,
+          "g": 99,
+          "b": 235,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 221,
+          "s": 83,
+          "l": 53,
+          "a": 1
+        }
+      },
+      "brand": {
+        "name": "button-brand",
+        "value": "#166534",
+        "valueRgb": {
+          "r": 22,
+          "g": 101,
+          "b": 52,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 143,
+          "s": 64,
+          "l": 24,
+          "a": 1
+        }
+      },
+      "danger": {
+        "name": "button-danger",
+        "value": "#e11d48",
+        "valueRgb": {
+          "r": 225,
+          "g": 29,
+          "b": 72,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 347,
+          "s": 77,
+          "l": 50,
+          "a": 1
+        }
+      },
+      "invert": {
+        "name": "button-invert",
+        "value": "#f0fdf4",
+        "valueRgb": {
+          "r": 240,
+          "g": 253,
+          "b": 244,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 138,
+          "s": 76,
+          "l": 97,
+          "a": 1
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "name": "text-primary",
+        "value": "#202020",
+        "valueRgb": {
+          "r": 32,
+          "g": 32,
+          "b": 32,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 13,
+          "a": 1
+        }
+      },
+      "secondary": {
+        "name": "text-secondary",
+        "value": "#7c7c7c",
+        "valueRgb": {
+          "r": 124,
+          "g": 124,
+          "b": 124,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 49,
+          "a": 1
+        }
+      },
+      "brand": {
+        "name": "text-brand",
+        "value": "#202020",
+        "valueRgb": {
+          "r": 32,
+          "g": 32,
+          "b": 32,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 13,
+          "a": 1
+        }
+      },
+      "invert": {
+        "name": "text-invert",
+        "value": "#f1f1f1",
+        "valueRgb": {
+          "r": 241,
+          "g": 241,
+          "b": 241,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 95,
+          "a": 1
+        }
+      }
+    }
+  }
+}

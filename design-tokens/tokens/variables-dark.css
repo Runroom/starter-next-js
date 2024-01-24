@@ -1,0 +1,20 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 21 Dec 2023 10:01:10 GMT
+ */
+
+[data-theme="dark"] {
+  --colors-surface-brand: #343434;
+  --colors-surface-invert: #f1f1f1;
+  --colors-surface-secondary: #afafaf;
+  --colors-surface-primary: #202020;
+  --colors-button-danger: #e11d48;
+  --colors-button-primary: #bbf7d0;
+  --colors-button-secondary: #60a5fa;
+  --colors-button-brand: #166534;
+  --colors-button-invert: #14532d;
+  --colors-text-primary: #f1f1f1;
+  --colors-text-secondary: #d3d3d3;
+  --colors-text-brand: #202020;
+  --colors-text-invert: #202020;
+}
