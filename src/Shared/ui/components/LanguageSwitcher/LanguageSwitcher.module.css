@@ -1,0 +1,34 @@
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: var(--language-bar-height);
+    width: 100%;
+}
+
+.language-switcher ul {
+    display: flex;
+}
+
+.language-switcher li {
+    list-style: none;
+    margin: 0 0.5rem;
+}
+
+.language-switcher li a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &.active {
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}

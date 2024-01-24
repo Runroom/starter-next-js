@@ -1,0 +1,218 @@
+{
+  "colors": {
+    "surface": {
+      "brand": {
+        "name": "dark-surface-brand",
+        "value": "#343434",
+        "valueRgb": {
+          "r": 52,
+          "g": 52,
+          "b": 52,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 20,
+          "a": 1
+        }
+      },
+      "invert": {
+        "name": "dark-surface-invert",
+        "value": "#f1f1f1",
+        "valueRgb": {
+          "r": 241,
+          "g": 241,
+          "b": 241,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 95,
+          "a": 1
+        }
+      },
+      "secondary": {
+        "name": "dark-surface-secondary",
+        "value": "#afafaf",
+        "valueRgb": {
+          "r": 175,
+          "g": 175,
+          "b": 175,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 69,
+          "a": 1
+        }
+      },
+      "primary": {
+        "name": "dark-surface-primary",
+        "value": "#202020",
+        "valueRgb": {
+          "r": 32,
+          "g": 32,
+          "b": 32,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 13,
+          "a": 1
+        }
+      }
+    },
+    "button": {
+      "danger": {
+        "name": "dark-button-danger",
+        "value": "#e11d48",
+        "valueRgb": {
+          "r": 225,
+          "g": 29,
+          "b": 72,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 347,
+          "s": 77,
+          "l": 50,
+          "a": 1
+        }
+      },
+      "primary": {
+        "name": "dark-button-primary",
+        "value": "#bbf7d0",
+        "valueRgb": {
+          "r": 187,
+          "g": 247,
+          "b": 208,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 141,
+          "s": 79,
+          "l": 85,
+          "a": 1
+        }
+      },
+      "secondary": {
+        "name": "dark-button-secondary",
+        "value": "#60a5fa",
+        "valueRgb": {
+          "r": 96,
+          "g": 165,
+          "b": 250,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 213,
+          "s": 94,
+          "l": 68,
+          "a": 1
+        }
+      },
+      "brand": {
+        "name": "dark-button-brand",
+        "value": "#166534",
+        "valueRgb": {
+          "r": 22,
+          "g": 101,
+          "b": 52,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 143,
+          "s": 64,
+          "l": 24,
+          "a": 1
+        }
+      },
+      "invert": {
+        "name": "dark-button-invert",
+        "value": "#14532d",
+        "valueRgb": {
+          "r": 20,
+          "g": 83,
+          "b": 45,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 144,
+          "s": 61,
+          "l": 20,
+          "a": 1
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "name": "dark-text-primary",
+        "value": "#f1f1f1",
+        "valueRgb": {
+          "r": 241,
+          "g": 241,
+          "b": 241,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 95,
+          "a": 1
+        }
+      },
+      "secondary": {
+        "name": "dark-text-secondary",
+        "value": "#d3d3d3",
+        "valueRgb": {
+          "r": 211,
+          "g": 211,
+          "b": 211,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 83,
+          "a": 1
+        }
+      },
+      "brand": {
+        "name": "dark-text-brand",
+        "value": "#202020",
+        "valueRgb": {
+          "r": 32,
+          "g": 32,
+          "b": 32,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 13,
+          "a": 1
+        }
+      },
+      "invert": {
+        "name": "dark-text-invert",
+        "value": "#202020",
+        "valueRgb": {
+          "r": 32,
+          "g": 32,
+          "b": 32,
+          "a": 1
+        },
+        "valueHsl": {
+          "h": 0,
+          "s": 0,
+          "l": 13,
+          "a": 1
+        }
+      }
+    }
+  }
+}

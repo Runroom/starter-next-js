@@ -1,9 +1,9 @@
 {
-    "name": "archetype-next-js",
-	"description": "Runroom NextJS Archetype",
+    "name": "@runroom/starter-next-js",
+    "description": "Runroom NextJS Starter",
     "version": "1.0.0",
-	"author": "@runroom",
-  	"license": "MIT",
+    "author": "@runroom",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "dev": "next dev",
@@ -24,9 +24,9 @@
         "lint:prettier": "prettier --check .docker .github src tsconfig.json .eslintrc.js stylelint.config.js postcss.config.js prettier.config.js cypress.config.ts tests next.config.js i18nConfig.ts vitest.config.ts",
         "lint:stylelint": "stylelint \"src/**/*.css\""
     },
-	"engines": {
-		"node": ">=20"
-	  },
+    "engines": {
+        "node": ">=20"
+    },
     "dependencies": {
         "@hookform/resolvers": "3.3.4",
         "@tanstack/query-core": "5.17.10",
@@ -38,7 +38,6 @@
         "i18next": "23.7.16",
         "i18next-resources-to-backend": "1.2.0",
         "next": "14.0.4",
-        "next-auth": "4.24.5",
         "next-i18n-router": "5.2.0",
         "next-i18next": "15.2.0",
         "react": "18.2.0",
@@ -58,7 +57,6 @@
         "@testing-library/user-event": "14.5.2",
         "@types/cors": "2.8.17",
         "@types/express": "4.17.21",
-        "@types/jsonwebtoken": "9.0.5",
         "@types/uuid": "9.0.7",
         "@typescript-eslint/eslint-plugin": "6.19.0",
         "@typescript-eslint/parser": "6.19.0",
@@ -73,7 +71,6 @@
         "eslint-plugin-cypress": "2.15.1",
         "express": "4.18.2",
         "jsdom": "23.2.0",
-        "jsonwebtoken": "9.0.2",
         "msw": "2.0.12",
         "next-router-mock": "0.9.11",
         "npm-run-all": "4.1.5",
