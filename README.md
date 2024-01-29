@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS Starter by Runroom
+[![Runroom. We think. We do. We connect.](https://github-production-user-asset-6210df.s3.amazonaws.com/13334047/300512392-9604f571-d3d5-4751-9033-8ded16012537.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240129T152550Z&X-Amz-Expires=300&X-Amz-Signature=d4b63a2ed6f298048702cd9d199ed46cb4df9f463489a5e0046f58a52b78eb58&X-Amz-SignedHeaders=host&actor_id=1675045&key_id=0&repo_id=745470551)](https://runroom.com)
 
-## Getting Started
+## Setting up your local repo
+This starter uses **NPM** to manage dependencies and **Node version >= 20** to be executed. In order to clone and start it you can use this following commnads in your local machine:
 
-First, run the development server:
+```bash
+git clone git@github.com:Runroom/starter-next-js.git
+cd starter-next-js
+npm i
+```
+
+This will leave everything ready to checkout your localhost starter site. To run your localhost environment you can use the following commands:
+
+```bash
+npm run build
+```
+
+After this command execution **you can access** `http://localhost:3000` with your browser and see the initial page.
+
+
+## Development
+When developing with this starter you can the following command to **enable Next JS development environment** and **live reload** to see your code changes instantly affecting the frontend:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Running tests
+We have added this short commands to run unit and end to end testing than you can use:
 
-## Learn More
+```bash
+# Run all Unit testing with Vitest
+npm run test
+# Run all End to End testing with Cypress
+npm run e2e:dev:test
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Contribution
+We are **happy to receive contributions** to this starter. If you want to contribute you can follow the next steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Fork this repository
+- Create your feature branch (`git checkout -b my-new-feature`)
+- Commit your changes (`git commit -am 'Add some feature'`)
+- Push to the branch (`git push origin my-new-feature`)
+- Create a new Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Also [we are keeping track of issues for this project here](https://github.com/Runroom/starter-next-js/issues), feel free to check them or **contribute and help us** with any of them.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This starter is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Credits
+
+This starter is based on [Runroom/starter-next-js](https://github.com/Runroom/starter-next-js).
+
+---
+## Runroom ♥
+
+[Runroom is a software development company](https://runroom.com) based in Barcelona. We are a team of passionate developers and designers that create memorable experiences for your customers.
+
+### More open Source Projects made at Ruroom:
+* [Stooa](https://github.com/Stooa): The free & open source fishbowl solution, where online unconference events happen.
+
