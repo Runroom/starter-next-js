@@ -19,14 +19,25 @@ npm run build
 After this command execution **you can access** `http://localhost:3000` with your browser and see the initial page.
 
 
-## Development
-When developing with this starter you can the following command to **enable Next JS development environment** and **live reload** to see your code changes instantly affecting the frontend:
+## Local Development
+When developing with this starter you can the following command to **enable a development environment** and **live reload** to see your code changes instantly affecting the frontend:
 
 ```bash
+# Run a NextJS server and checkout http://localhost:3000/
 npm run dev
+# Run a test server with Mock Service Workers
+npm run dev:test
 ```
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+## Local Development with Docker
+We have created a basic Docker config to enable local development environment as well. You can see all options listed in `.docker/makefile` and run the following command to use it:
+
+```bash
+# Run a Docker server and checkout http://localhost:3000/
+make
+```
 
 ## Running tests
 We have added this short commands to run unit and end to end testing than you can use:
