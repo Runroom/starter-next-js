@@ -1,5 +1,5 @@
 # NextJS Starter by Runroom
-[![Runroom. We think. We do. We connect.](https://private-user-images.githubusercontent.com/13334047/300763016-b90b82d4-9ab7-41b9-9693-c3da0a05b8b1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY2MDkzNDEsIm5iZiI6MTcwNjYwOTA0MSwicGF0aCI6Ii8xMzMzNDA0Ny8zMDA3NjMwMTYtYjkwYjgyZDQtOWFiNy00MWI5LTk2OTMtYzNkYTBhMDViOGIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMwVDEwMDQwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkNDY1NTIxMzhmZmM5YmQ0YmFiY2Q3NDJhOTcwMjE2NzQ2NGQ5MThmNWYwYTlmMTE3ZjkzNWJlYjE1MWM5ZDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Da1b-L-CGBaYGS7jOxR9yv2YRJ0hoVSSi0J1Ck-eLTI)](https://runroom.com)
+[![Runroom. We think. We do. We connect.](https://private-user-images.githubusercontent.com/13334047/300763016-b90b82d4-9ab7-41b9-9693-c3da0a05b8b1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY2MjUwNjYsIm5iZiI6MTcwNjYyNDc2NiwicGF0aCI6Ii8xMzMzNDA0Ny8zMDA3NjMwMTYtYjkwYjgyZDQtOWFiNy00MWI5LTk2OTMtYzNkYTBhMDViOGIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMwVDE0MjYwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZkNWM0YjMzNzg5MjdlZDc1OTgwMDAwMGQ3MzQ2NzkwNWMxOTBkMTI0ZWJiM2ZiZDgyODIxMmU1ZTg2YzVlN2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2WIBYpZjtXWeypZ9lMKlQsLJgZirFUl0iIn6Zl1FpBM)](https://runroom.com)
 
 ## Setting up your local repo
 This starter uses **NPM** to manage dependencies and **Node version >= 20** to be executed. In order to clone and start it you can use this following commnads in your local machine:
@@ -75,4 +75,3 @@ This starter is based on [Runroom/starter-next-js](https://github.com/Runroom/st
 
 ### More open Source Projects made at Ruroom:
 * [Stooa](https://github.com/Stooa): The free & open source fishbowl solution, where online unconference events happen.
-
