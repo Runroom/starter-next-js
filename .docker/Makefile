@@ -1,4 +1,4 @@
-APPLICATION_NAME ?= starter-next-js-app
+APPLICATION_NAME ?= starter-next-js
 
 UID ?= $(shell id -u)
 GID ?= $(shell id -g)
