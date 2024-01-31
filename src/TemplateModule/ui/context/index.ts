@@ -1,1 +1,1 @@
-export * from './TemplateModuleProvider';
+export * from './Provider';

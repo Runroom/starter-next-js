@@ -1,1 +1,1 @@
-export * from './useTemplateModule';
+export * from './useHook';
