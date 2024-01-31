@@ -66,9 +66,6 @@ Also [we are keeping track of issues for this project here](https://github.com/R
 
 This starter is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Credits
-
-This starter is based on [Runroom/starter-next-js](https://github.com/Runroom/starter-next-js).
 
 ---
 ## Runroom ♥
