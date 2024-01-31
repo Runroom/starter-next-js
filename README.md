@@ -1,5 +1,7 @@
 # NextJS Starter by Runroom
-[![Runroom. We think. We do. We connect.](https://private-user-images.githubusercontent.com/13334047/300763016-b90b82d4-9ab7-41b9-9693-c3da0a05b8b1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY2MjUwNjYsIm5iZiI6MTcwNjYyNDc2NiwicGF0aCI6Ii8xMzMzNDA0Ny8zMDA3NjMwMTYtYjkwYjgyZDQtOWFiNy00MWI5LTk2OTMtYzNkYTBhMDViOGIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTMwVDE0MjYwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZkNWM0YjMzNzg5MjdlZDc1OTgwMDAwMGQ3MzQ2NzkwNWMxOTBkMTI0ZWJiM2ZiZDgyODIxMmU1ZTg2YzVlN2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2WIBYpZjtXWeypZ9lMKlQsLJgZirFUl0iIn6Zl1FpBM)](https://runroom.com)
+[![Runroom. We think. We do. We connect.](https://private-user-images.githubusercontent.com/1675045/301127464-5f88a3a9-c7e2-45b4-b5db-355a9ca93537.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY2OTczMDIsIm5iZiI6MTcwNjY5NzAwMiwicGF0aCI6Ii8xNjc1MDQ1LzMwMTEyNzQ2NC01Zjg4YTNhOS1jN2UyLTQ1YjQtYjVkYi0zNTVhOWNhOTM1MzcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEzMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMzFUMTAzMDAyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjlmYzI2ZGViOTNiMzI5MzdmOWI1YThiZDMwYzM3YmVhNzU0ZjIwYTQyOTMwMmJkN2IyZDlmOTQxZTExOTJjZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.DmIAXn-LCcYgZRxfBO15L35KepuhZcrEV1pJrOC9ZGo)](https://runroom.com)
+
+[![CI](https://github.com/Runroom/starter-next-js/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/Runroom/starter-next-js/actions/workflows/ci.yaml)
 
 ## Setting up your local repo
 This starter uses **NPM** to manage dependencies and **Node version >= 20** to be executed. In order to clone and start it you can use this following commnads in your local machine:
@@ -7,7 +9,7 @@ This starter uses **NPM** to manage dependencies and **Node version >= 20** to b
 ```bash
 git clone git@github.com:Runroom/starter-next-js.git
 cd starter-next-js
-npm i
+npm install
 ```
 
 This will leave everything ready to checkout your localhost starter site. To run your localhost environment you can use the following commands:
