@@ -15,8 +15,9 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 6rem;
     min-height: 100vh;
+    width: 100%;
+    --accent-color: coral;
 }
 
 /* stylelint-disable-next-line */

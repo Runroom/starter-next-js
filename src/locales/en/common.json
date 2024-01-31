@@ -1,4 +1,5 @@
 {
     "locale": "en",
-    "language": "English"
+    "language": "English",
+    "welcome": "with Next JS"
 }

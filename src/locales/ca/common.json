@@ -1,4 +1,5 @@
 {
     "locale": "ca",
-    "language": "Català"
+    "language": "Català",
+    "welcome": "Starter amb Next JS"
 }

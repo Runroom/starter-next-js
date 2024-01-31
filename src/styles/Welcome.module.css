@@ -1,0 +1,61 @@
+.welcome {
+    --main-size: 3.125rem;
+    background: var(--colors-surface-secondary);
+    padding: 8rem 0;
+    justify-content: space-between;
+}
+
+.welcome_title {
+    color: var(--colors-surface-primary);
+    display: flex;
+    flex-direction: column;
+    font-size: var(--main-size);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@property --i {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: white;
+}
+
+.welcome_gradient {
+    --i: white;
+
+    background: linear-gradient(to bottom, var(--i) 20%, var(--colors-surface-secondary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+    transition: --i 0.5s;
+}
+
+.welcome_title:hover .welcome_gradient {
+    --i: coral;
+    cursor: crosshair;
+}
+
+.welcome_below {
+    font-size: calc(var(--main-size) - 1.5rem);
+    margin-top: -.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .welcome {
+        --main-size: 6rem;
+        padding: 4rem 0;
+    }
+
+    .welcome_title {
+        max-width: 14ch;
+        padding-top: 4rem;
+    }
+
+    .welcome_below {
+        margin-top: -1.25rem;
+    }
+}
