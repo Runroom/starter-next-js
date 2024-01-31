@@ -1,2 +1,2 @@
-export * from './TemplateModuleModel';
-export * from './TemplateModuleRepository';
+export * from './Model';
+export * from './Repository';

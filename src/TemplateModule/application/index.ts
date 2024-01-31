@@ -1,2 +1,1 @@
-export * from './createTemplateModule';
-export * from './getTemplateModule';
+export * from './useCase';

@@ -1,1 +1,1 @@
-export * from './ApiTemplateModuleRepository';
+export * from './ApiRepository';

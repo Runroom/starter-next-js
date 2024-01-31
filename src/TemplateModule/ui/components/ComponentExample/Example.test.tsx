@@ -1,11 +1,11 @@
 import { describe, test, expect } from 'vitest';
 import { render } from '@testing-library/react';
 
-import { ComponentExample } from './ComponentExample';
+import { Example } from './Example';
 
 describe('Component Example Test', () => {
   test('Must render an Empty Tag', () => {
-    const { container } = render(<ComponentExample />);
+    const { container } = render(<Example />);
     expect(container).toBeEmptyDOMElement();
   });
 });
