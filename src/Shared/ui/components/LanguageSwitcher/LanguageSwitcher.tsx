@@ -29,7 +29,7 @@ export const LanguageSwitcher = (): JSX.Element => {
 
   return (
     <div data-testid="language-switcher" className={styles['language-switcher']}>
-      <p className={styles.language_title}>{t('language')}</p>
+      <p className={styles.language__title}>{t('language')}</p>
       <ul role="listbox">
         {languages.map(language => (
           <li key={language}>

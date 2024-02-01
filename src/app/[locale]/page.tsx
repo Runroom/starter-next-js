@@ -9,9 +9,11 @@ export default function Home() {
   const { t } = useTranslation('common');
   return (
     <main className={styles.welcome}>
-      <h1 className={styles.welcome_title}>
-        <span className={styles.welcome_gradient}>Runroom Starter</span>
-        <span className={`${styles.welcome_gradient} ${styles.welcome_below}`}>{t(`welcome`)}</span>
+      <h1 className={styles.welcome__title}>
+        <span className={styles.welcome__gradient}>Runroom Starter</span>
+        <span className={`${styles.welcome__gradient} ${styles.welcome__below}`}>
+          {t(`welcome`)}
+        </span>
       </h1>
       <LanguageSwitcher />
     </main>

@@ -1,11 +1,12 @@
 .welcome {
     --main-size: 3.125rem;
+
     background: var(--colors-surface-secondary);
     padding: 8rem 0;
     justify-content: space-between;
 }
 
-.welcome_title {
+.welcome__title {
     color: var(--colors-surface-primary);
     display: flex;
     flex-direction: column;
@@ -17,45 +18,45 @@
 }
 
 @property --i {
-    syntax: '<color>';
+    syntax: "<color>";
     inherits: false;
     initial-value: white;
 }
 
-.welcome_gradient {
+.welcome__gradient {
     --i: white;
 
     background: linear-gradient(to bottom, var(--i) 20%, var(--colors-surface-secondary));
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-size: 400%;
     background-position: 0%;
-    transition: --i 0.5s;
+    transition: background 0.5s;
 }
 
-.welcome_title:hover .welcome_gradient {
+.welcome__title:hover .welcome__gradient {
     --i: coral;
+
     cursor: crosshair;
 }
 
-.welcome_below {
+.welcome__below {
     font-size: calc(var(--main-size) - 1.5rem);
-    margin-top: -.25rem;
+    margin-top: -0.25rem;
 }
 
-@media screen and (min-width: 768px) {
+@media (width >= 768px) {
     .welcome {
         --main-size: 6rem;
+
         padding: 4rem 0;
     }
 
-    .welcome_title {
+    .welcome__title {
         max-width: 14ch;
         padding-top: 4rem;
     }
 
-    .welcome_below {
+    .welcome__below {
         margin-top: -1.25rem;
     }
 }

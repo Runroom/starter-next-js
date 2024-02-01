@@ -11,13 +11,14 @@ body {
 }
 
 main {
+    --accent-color: coral;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    --accent-color: coral;
 }
 
 /* stylelint-disable-next-line */
