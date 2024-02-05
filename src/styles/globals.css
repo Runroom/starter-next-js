@@ -13,11 +13,13 @@ body {
 main {
     --accent-color: coral;
 
+    align-items: center;
+    background: var(--colors-surface-secondary);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
     min-height: 100vh;
+    padding: 8rem 0;
     width: 100%;
 }
 

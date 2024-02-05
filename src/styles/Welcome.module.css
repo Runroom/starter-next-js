@@ -1,9 +1,5 @@
 .welcome {
     --main-size: 3.125rem;
-
-    background: var(--colors-surface-secondary);
-    padding: 8rem 0;
-    justify-content: space-between;
 }
 
 .welcome__title {
@@ -28,8 +24,7 @@
 
     background: linear-gradient(to bottom, var(--i) 20%, var(--colors-surface-secondary));
     background-clip: text;
-    background-size: 400%;
-    background-position: 0%;
+    color: transparent;
     transition: background 0.5s;
 }
 
@@ -47,13 +42,10 @@
 @media (width >= 768px) {
     .welcome {
         --main-size: 6rem;
-
-        padding: 4rem 0;
     }
 
     .welcome__title {
         max-width: 14ch;
-        padding-top: 4rem;
     }
 
     .welcome__below {
