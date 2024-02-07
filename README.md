@@ -1,5 +1,5 @@
 # NextJS Starter by Runroom
-[![Runroom. We think. We do. We connect.](https://private-user-images.githubusercontent.com/1675045/301127464-5f88a3a9-c7e2-45b4-b5db-355a9ca93537.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY2OTczMDIsIm5iZiI6MTcwNjY5NzAwMiwicGF0aCI6Ii8xNjc1MDQ1LzMwMTEyNzQ2NC01Zjg4YTNhOS1jN2UyLTQ1YjQtYjVkYi0zNTVhOWNhOTM1MzcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEzMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMzFUMTAzMDAyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjlmYzI2ZGViOTNiMzI5MzdmOWI1YThiZDMwYzM3YmVhNzU0ZjIwYTQyOTMwMmJkN2IyZDlmOTQxZTExOTJjZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.DmIAXn-LCcYgZRxfBO15L35KepuhZcrEV1pJrOC9ZGo)](https://runroom.com)
+[![Runroom. We think. We do. We connect.](.github/assets/wethink-wedo-weconnect.png)](https://runroom.com)
 
 [![CI](https://github.com/Runroom/starter-next-js/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/Runroom/starter-next-js/actions/workflows/ci.yaml)
 
