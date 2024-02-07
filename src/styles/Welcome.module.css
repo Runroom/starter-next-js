@@ -1,0 +1,54 @@
+.welcome {
+    --main-size: 3.125rem;
+}
+
+.welcome__title {
+    color: var(--colors-surface-primary);
+    display: flex;
+    flex-direction: column;
+    font-size: var(--main-size);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@property --i {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: white;
+}
+
+.welcome__gradient {
+    --i: white;
+
+    background: linear-gradient(to bottom, var(--i) 20%, var(--colors-surface-secondary));
+    background-clip: text;
+    color: transparent;
+    transition: background 0.5s;
+}
+
+.welcome__title:hover .welcome__gradient {
+    --i: coral;
+
+    cursor: crosshair;
+}
+
+.welcome__below {
+    font-size: calc(var(--main-size) - 1.5rem);
+    margin-top: -0.25rem;
+}
+
+@media (width >= 768px) {
+    .welcome {
+        --main-size: 6rem;
+    }
+
+    .welcome__title {
+        max-width: 14ch;
+    }
+
+    .welcome__below {
+        margin-top: -1.25rem;
+    }
+}

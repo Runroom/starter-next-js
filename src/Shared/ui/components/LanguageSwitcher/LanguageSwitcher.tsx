@@ -6,7 +6,8 @@ import i18nConfig from 'i18nConfig';
 import styles from './LanguageSwitcher.module.css';
 
 export const LanguageSwitcher = (): JSX.Element => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+
   const languages = i18nConfig.locales;
   const currentLocale = i18n.language;
 
@@ -28,6 +29,7 @@ export const LanguageSwitcher = (): JSX.Element => {
 
   return (
     <div data-testid="language-switcher" className={styles['language-switcher']}>
+      <p className={styles.language__title}>{t('language')}</p>
       <ul role="listbox">
         {languages.map(language => (
           <li key={language}>
