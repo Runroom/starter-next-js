@@ -1,4 +1,4 @@
-# NextJS Starter by Runroom
+# NextJS Starter by Runrgfdoom
 [![Runroom. We think. We do. We connect.](.github/assets/wethink-wedo-weconnect.png)](https://runroom.com)
 
 [![CI](https://github.com/Runroom/starter-next-js/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/Runroom/starter-next-js/actions/workflows/ci.yaml)
