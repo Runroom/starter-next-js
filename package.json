@@ -37,7 +37,7 @@
         "@types/react-dom": "18.2.18",
         "i18next": "23.7.16",
         "i18next-resources-to-backend": "1.2.0",
-        "next": "14.0.4",
+        "next": "14.2.20",
         "next-i18n-router": "5.2.0",
         "next-i18next": "15.2.0",
         "react": "18.2.0",
