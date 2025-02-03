@@ -57,6 +57,7 @@ We are **happy to receive contributions** to this starter. If you want to contri
 - Fork this repository
 - Create your feature branch (`git checkout -b my-new-feature`)
 - Commit your changes (`git commit -am 'Add some feature'`)
+- Add changelog via `npx @changeset/cli`
 - Push to the branch (`git push origin my-new-feature`)
 - Create a new Pull Request
 
